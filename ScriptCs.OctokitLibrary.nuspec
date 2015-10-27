@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>ScriptCs.OctokitLibrary</id>
+    <version>0.1.0</version>
+    <authors>rrousseau</authors>
+    <owners>rrousseau</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Octokit script library for scriptcs</description>
+    <releaseNotes>Initial release. Port of ahandersson's Octokit Script Pack to a Script Library</releaseNotes>
+    <copyright>Copyright 2015</copyright>
+    <tags>scriptcs octokit</tags>
+    <dependencies>
+      <dependency id="Octokit" version="0.16.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="OctokitLibraryMain.csx" target="Content\scriptcs\OctokitLibraryMain.csx" />
+  </files>
+</package>
